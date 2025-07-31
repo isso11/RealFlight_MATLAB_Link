@@ -18,11 +18,7 @@ function RealFlightLiveGUI()
     
     % Status text
     statusText = uilabel(f, 'Text', 'Status: Idle', 'Position', [200 180 250 30], 'FontSize', 10);
-   
-    % Author signature label (bottom center)
-    uilabel(f,'Text', 'Islam Elnady  |  islamelnady@yahoo.com', ...
-        'Position', [200 20 400 22],'FontSize', 10, 'HorizontalAlignment', 'center');
- 
+    
     % Built-in Artificial Horizon from Aerospace Toolbox
     horizon = uiaerohorizon(f, 'Position', [530 230 180 180]);
     
