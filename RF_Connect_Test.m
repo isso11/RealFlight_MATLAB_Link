@@ -10,6 +10,7 @@
 %   1. Make sure RealFlight is running with controller input unlocked
 %   2. Run this script in MATLAB to test SOAP connection
 
+% Created By: Islam Elnady... islamelnady@yahoo.com
 
 rfUrl = 'http://127.0.0.1:18083';  % SOAP endpoint
 channels = [0.5, 0.48, 1.0, 0.5];   % [roll, pitch, throttle, yaw]
