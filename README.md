@@ -63,5 +63,7 @@ This script:
 This project is licensed under the [MIT License](LICENSE). Feel free to fork, modify, or contribute!
 
 👤 Author
+
 Developed by: Islam Elnady
+
 📧 islamelnady@yahoo.com
