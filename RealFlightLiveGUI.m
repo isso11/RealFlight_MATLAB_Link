@@ -1,6 +1,8 @@
 % RealFlight Live Control GUI (with sliders, aerospace artificial horizon, and buttons)
 % MODIFIED: Sliders now send data live during movement.
+
 % Created By: Islam Elnady... islamelnady@yahoo.com
+
 function RealFlightLiveGUI()
     f = uifigure('Name','RealFlight Live Control', 'Position', [100 100 750 600]);
     
@@ -17,6 +19,9 @@ function RealFlightLiveGUI()
     % Status text
     statusText = uilabel(f, 'Text', 'Status: Idle', 'Position', [200 180 250 30], 'FontSize', 10);
     
+
+
+
     % Built-in Artificial Horizon from Aerospace Toolbox
     horizon = uiaerohorizon(f, 'Position', [530 230 180 180]);
     
