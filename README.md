@@ -1,6 +1,6 @@
 # RealFlight-MATLAB\_Link
 
-A live MATLAB interface to control and monitor **RealFlight 9.5 RC Simulator** using sliders and a real-time HUD GUI. This project uses the built-in SOAP server in RealFlight to send channel control values (Aileron, Elevator, Throttle, Rudder) and receive live telemetry (pitch, roll, airspeed, altitude).
+A live MATLAB interface to control and monitor [**RealFlight 9.5 RC Simulator**](https://www.realflight.com/) using sliders and a real-time HUD GUI. This project uses the built-in SOAP server in RealFlight to send channel control values (Aileron, Elevator, Throttle, Rudder) and receive live telemetry (pitch, roll, airspeed, altitude).
 
 ---
 
